@@ -28,7 +28,7 @@ li {
 }
 .search{
     padding-left: 30px;
-    padding-right: 50px;
+    padding-right: 80px;
 }
 .search .btn{
      background: #FFFFFF ;
@@ -37,12 +37,24 @@ li {
     border-bottom: 1px solid rgba(189, 189, 189, 0.25);
     border-left: 1px solid rgba(189, 189, 189, 0.25);
     border-top: 1px solid rgba(189, 189, 189, 0.25);
-    border-right: none
+    border-right: none;
 
 }
 .fa-search{
     font-size: 14px;
 color: #DADADA;
+}
+.fa-bell{
+    color: #8CA0B3;
+    font-size: 20px;
+}
+.fa-circle{
+    font-size:7.88px;
+    color: linear-gradient(172.24deg, #1B75BB 0%, #00ADEE 100%);
+}
+#alertdot{
+    margin-top: -10px;
+    margin-left: -19px;
 }
 .search .form-control{
    background: #FFFFFF;

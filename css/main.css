@@ -8,18 +8,18 @@ nav{
 li {
     list-style-type: none;
 }
-.dropdown{
+.navdropdwn{
     width: 265px;
     background-color: white;
     padding-top:12px;
     padding-bottom: 12px;
     margin-bottom: -15px;
-    margin-top: -15px;
+    margin-top: -55px;
 }
-.dropdown a{
+.navdropdwn a{
      font-size: 14px;
 }
-.dropdown .handmaidtext{
+.navdropdwn .handmaidtext{
     font-style: normal;
     font-weight: bold;
     line-height: normal;
@@ -27,8 +27,10 @@ li {
     color: #3B3B3B;
 }
 .search{
-    padding-left: 30px;
-    padding-right: 80px;
+    padding-left: 20px;
+    padding-right: 60px;
+    margin-top: -40px;
+    margin-right: 20px;
 }
 .search .btn{
      background: #FFFFFF ;
@@ -38,6 +40,7 @@ li {
     border-left: 1px solid rgba(189, 189, 189, 0.25);
     border-top: 1px solid rgba(189, 189, 189, 0.25);
     border-right: none;
+    padding-top: 10px;
 
 }
 .fa-search{
@@ -52,9 +55,43 @@ color: #DADADA;
     font-size:7.88px;
     color: linear-gradient(172.24deg, #1B75BB 0%, #00ADEE 100%);
 }
+.avarterdrpdwn{
+   color: #90A4AE;
+
+}
+.media img{
+    border: 2px solid blue;
+    border-radius: 50%;
+}
+.media-body h5{
+    font-style: normal;
+font-weight: bolder;
+line-height: normal;
+font-size: 12px;
+text-align: left;
+
+color: #31393C; 
+}
+.media{
+
+}
+.media-body .mail{
+  font-family: 'Nunito', sans-serif;
+  font-style: italic;
+line-height: normal;
+font-size: 9px;
+text-align: left;
+
+color: #90A4AE;
+
+}
 #alertdot{
     margin-top: -10px;
     margin-left: -19px;
+    padding-top: 16px;
+}
+#bell{
+    padding-top: 18px;
 }
 .search .form-control{
    background: #FFFFFF;

@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
     <link href="https://fonts.googleapis.com/css?family=Khula|Open+Sans" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" media="screen" href="css/main.css" />
 
@@ -19,9 +20,9 @@
 
         <nav class="navbar fixed-top navbar-expand-lg ">
           
-          <li class=" dropdown">
+          <li class=" dropdown navdropdwn">
             <a class="navbar-brand dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-             <img src="" alt=""> <span class="handmaidtext">Handmaid's International</span>
+             <img src="images/chaticon.png" width="38px" height="40px" alt=""> <span class="handmaidtext">Handmaid's International</span>
            </a>
            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
             <a class="dropdown-item" href="#">Action</a>
@@ -44,15 +45,28 @@
 
               <span class="fas fa-align-justify"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
+          <div class="collapse navbar-collapse " id="navbarNavAltMarkup">
             <div class="navbar-nav ">
                 
-                <a class="nav-item nav-link " href=""><i class="fas fa-bell"></i></a>
+                <a class="nav-item nav-link " id="bell" href=""><i class="fas fa-bell"></i></a>
                 <a class="nav-item nav-link " id="alertdot" href=""><i class="fas fa-circle"></i></a>
-                <a class="nav-item nav-link " href="">History</a>
-                <a class="nav-item nav-link " href="">Service</a>
-                
+              <li class=" dropdown avarterdrpdwn">
+                <a class="nav-item nav-link text-left dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  <div class="media ">
+                    <div class="media-body">
+                      <h5 class="mt-0 mb-1">Ukauwa David</h5>
+                      <p class="mail">dukauwa.du@gmail.com</p>
+                    </div>
+                    <img class="ml-3" src="images/chaticon.png" width="34px" height="34px" alt="">
+                  </div>
+                </a>
 
+                <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                  <a class="dropdown-item" href="#">Action</a>
+                  <div class="dropdown-divider"></div>
+                  <a class="dropdown-item" href="#">Something else here</a>
+                </div>
+              </li>
 
             </div>
         </div>

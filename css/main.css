@@ -1,6 +1,7 @@
 body{
     font-family: 'Open Sans', sans-serif;
-    font-family: 'Khula', sans-serif;
+    
+
 }
 nav{
     /*background-color:#DADADA; */
@@ -8,12 +9,38 @@ nav{
 li {
     list-style-type: none;
 }
+.firstnav{
+    background-color: #DADADA;
+    margin-left: -15px;
+}
+.mainbody{
+    margin-top: 102px
+
+
+}
+.sidebar{
+    padding-top: 50px;
+    padding-left: 20px;
+    padding-bottom: 50px;
+   background: linear-gradient(136.25deg, #1B75BB 0%, #00ADEE 100%) 
+}
+.sidebar a{
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 14px;
+font-family: 'Khula', sans-serif;
+color: #FFFFFF;
+
+
+}
 .navdropdwn{
-    width: 265px;
+   
     background-color: white;
     padding-top:12px;
+    padding-left: 10px;
     padding-bottom: 12px;
-    margin-bottom: -15px;
+    margin-bottom: -25px;
     margin-top: -55px;
 }
 .navdropdwn a{
@@ -23,14 +50,14 @@ li {
     font-style: normal;
     font-weight: bold;
     line-height: normal;
-    font-size: 14px;
+    font-size: 12px;
     color: #3B3B3B;
 }
 .search{
     padding-left: 20px;
     padding-right: 60px;
     margin-top: -40px;
-    margin-right: 20px;
+    margin-right: 5px;
 }
 .search .btn{
      background: #FFFFFF ;
@@ -92,6 +119,7 @@ color: #90A4AE;
 }
 #bell{
     padding-top: 18px;
+
 }
 .search .form-control{
    background: #FFFFFF;

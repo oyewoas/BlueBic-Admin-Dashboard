@@ -10,38 +10,61 @@ li {
     list-style-type: none;
 }
 .firstnav{
-    background-color: #DADADA;
+    background: #f9f9f9;
     margin-left: -15px;
 }
 .mainbody{
-    margin-top: 102px
+    margin-top: 80px
 
 
 }
+.avarterdropdown{
+    color:#90A4AE 
+}
 .sidebar{
-    padding-top: 50px;
+    padding-top: 30px;
     padding-left: 20px;
+    padding-right: 20px;
     padding-bottom: 50px;
    background: linear-gradient(136.25deg, #1B75BB 0%, #00ADEE 100%) 
 }
+.sidebar li{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
 .sidebar a{
-font-style: normal;
-font-weight: bold;
-line-height: normal;
-font-size: 14px;
-font-family: 'Khula', sans-serif;
+
 color: #FFFFFF;
 
 
+
+}
+
+.sidebar .texts{
+    font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 14px;
+padding-right: 25px;
+font-family: 'Khula', sans-serif;
+color: #FFFFFF
+}
+.sidebar img{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
 }
 .navdropdwn{
    
     background-color: white;
-    padding-top:12px;
+    padding-top: 6px;
+    padding-bottom: 6px;
     padding-left: 10px;
-    padding-bottom: 12px;
-    margin-bottom: -25px;
-    margin-top: -55px;
+    margin-top: -25px;
+    margin-bottom: -20px;
+    
+
+   
 }
 .navdropdwn a{
      font-size: 14px;
@@ -54,10 +77,14 @@ color: #FFFFFF;
     color: #3B3B3B;
 }
 .search{
-    padding-left: 20px;
-    padding-right: 60px;
-    margin-top: -40px;
+    padding-left: 40px;
+    padding-right: 70px;
     margin-right: 5px;
+    margin-top: -15px;
+    margin-bottom: -7px;
+}
+.sidebarhr{
+    background-color: white
 }
 .search .btn{
      background: #FFFFFF ;
@@ -67,7 +94,7 @@ color: #FFFFFF;
     border-left: 1px solid rgba(189, 189, 189, 0.25);
     border-top: 1px solid rgba(189, 189, 189, 0.25);
     border-right: none;
-    padding-top: 10px;
+    padding-top: 5px;
 
 }
 .fa-search{

@@ -18,8 +18,14 @@ li {
 
 
 }
+.navdropdwn .dropdown-toggle{
+    color: #1C75BB;
+}
 .avarterdropdown{
     color:#90A4AE 
+}
+.avarterdropdown .dropdown-toggle{
+     color: #8CA0B3
 }
 .sidebar{
     padding-top: 30px;
@@ -32,13 +38,7 @@ li {
     margin-top: 15px;
     margin-bottom: 15px;
 }
-.sidebar a{
 
-color: #FFFFFF;
-
-
-
-}
 
 .sidebar .texts{
     font-style: normal;
@@ -49,10 +49,63 @@ padding-right: 25px;
 font-family: 'Khula', sans-serif;
 color: #FFFFFF
 }
+.sidebar .dropdown-toggle{
+    color: #FFFFFF;
+
+}
 .sidebar img{
     width: 20px;
     height: 20px;
     margin-right: 10px;
+}
+.helpterms{
+    margin-top: 30px
+}
+.helpterms a{
+    text-decoration: none;
+    
+}
+.helpterms .terms{
+    font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 12px;
+color: #FFFFFF;
+padding-left: 5px;
+font-family: 'Khula', sans-serif;
+
+}
+main{
+    background-color: #f9f9f9;
+    margin-top: -3px;
+
+}
+.studenttxt h5{
+    font-family: 'Khula', sans-serif;
+    font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+letter-spacing: 1px;
+
+color: #3B3B3B;
+
+}
+.studenttxt h5 img{
+    margin-right: 8px;
+    margin-left: 15px;
+}
+.helpterms .help{
+   font-family: 'Khula', sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 12px;
+padding:5px 10px;
+border-radius: 17px;
+margin-left: 10px;
+color: #1C75BB;
+background-color: #FFFFFF;
 }
 .navdropdwn{
    
@@ -113,11 +166,11 @@ color: #DADADA;
    color: #90A4AE;
 
 }
-.media img{
+.avartermedia img{
     border: 2px solid blue;
     border-radius: 50%;
 }
-.media-body h5{
+.avartermedia h5{
     font-style: normal;
 font-weight: bolder;
 line-height: normal;
@@ -126,10 +179,69 @@ text-align: left;
 
 color: #31393C; 
 }
-.media{
+.feescard h5{
+    font-family: 'Khula', sans-serif;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 10px;
+text-transform: uppercase;
 
+color: #BDBDBD;
 }
-.media-body .mail{
+.feescard .price{
+    font-family: Lato;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 24px;
+margin-top: 20px;
+color: #2D74DA;
+}
+.performancetxt h5{
+    font-family: 'Khula', sans-serif;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+letter-spacing: 1px;
+
+color: #3B3B3B;
+}
+.margintop25{
+    margin-top: 25px;
+}
+.performancetxt h5 img{
+    margin-right: 8px;
+   
+}
+.generaltxt h5{
+    font-family: 'Khula', sans-serif;
+
+    font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 10px;
+letter-spacing: 1px;
+
+color: #3B3B3B;
+}
+.generaltxt h5 img{
+    margin-right: 8px;
+}
+.performancetxt h5 a{
+     font-family: 'Khula', sans-serif;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 10px;
+text-align: right;
+text-decoration: none;
+text-transform: uppercase;
+float: right;
+color: #1B75BB;
+}
+.avartermedia .mail{
   font-family: 'Nunito', sans-serif;
   font-style: italic;
 line-height: normal;

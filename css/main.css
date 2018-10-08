@@ -14,8 +14,12 @@ li {
     margin-left: -15px;
 }
 .mainbody{
-    margin-top: 80px
+    margin-top: 80px;
 
+
+}
+main{
+  padding:10px;
 
 }
 .navdropdwn .dropdown-toggle{
@@ -179,6 +183,25 @@ text-align: left;
 
 color: #31393C; 
 }
+.feescard{
+    background: #FFFFFF;
+/* grey srokes */
+border: 1px solid rgba(189, 189, 189, 0.25);
+ /*box-sizing: border-box; */
+box-shadow: 0px 4.71062px 23.5531px rgba(0, 0, 0, 0.07);
+border-radius: 4.71062px;
+margin-top: 10px;
+/*width: 359.97px;
+height: 98px;
+padding:10px;*/
+
+
+}
+
+.feescardrow .col-sm-4{
+   
+    
+}
 .feescard h5{
     font-family: 'Khula', sans-serif;
 font-style: normal;
@@ -189,8 +212,72 @@ text-transform: uppercase;
 
 color: #BDBDBD;
 }
+#curve_chart{
+    
+}
+.statistics{
+    margin-top: 10px;
+    height: 100%
+}
+.statistics .eachstats h5{
+    font-family: Khula;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 10px;
+text-transform: uppercase;
+
+color: #BDBDBD;
+}
+.statistics .eachstats h2{
+    font-family: Khula;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 24px;
+
+color: #3B3B3B;
+}
+.statistics .eachstats a{
+    text-decoration: none;
+    font-family: Khula;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 10px;
+text-transform: uppercase;
+
+color: #1B75BB;
+
+}
+
+
+.statistics .eachstats {
+    padding:15px;
+    background: #FFFFFF;
+/* grey srokes */
+border: 1px solid rgba(189, 189, 189, 0.25);
+box-sizing: border-box;
+box-shadow: 0px 4.71062px 23.5531px rgba(0, 0, 0, 0.07);
+border-radius: 4.71062px;
+
+
+}
+.margin10{
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+.chart{
+    margin-top: 10px;
+    background: #FFFFFF;
+/* grey srokes */
+border: 1px solid rgba(189, 189, 189, 0.25);
+box-sizing: border-box;/* drop shadow */
+box-shadow: 0px 7.51481px 37.574px rgba(0, 0, 0, 0.07);
+border-radius: 7.51481px;
+}
 .feescard .price{
-    font-family: Lato;
+   font-family: 'Lato', sans-serif;
 font-style: normal;
 font-weight: normal;
 line-height: normal;
@@ -207,6 +294,9 @@ font-size: 10px;
 letter-spacing: 1px;
 
 color: #3B3B3B;
+}
+.sidebar{
+    height: 100%
 }
 .margintop25{
     margin-top: 25px;

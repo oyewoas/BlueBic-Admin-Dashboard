@@ -18,10 +18,7 @@ li {
 
 
 }
-main{
-  padding:10px;
 
-}
 .navdropdwn .dropdown-toggle{
     color: #1C75BB;
 }
@@ -229,7 +226,7 @@ text-transform: uppercase;
 
 color: #BDBDBD;
 }
-.statistics .eachstats h2{
+.statistics .eachstats .number{
     font-family: Khula;
 font-style: normal;
 font-weight: 600;
@@ -237,6 +234,87 @@ line-height: normal;
 font-size: 24px;
 
 color: #3B3B3B;
+}
+.padding10{
+    padding:10px;
+}
+.absent .details{
+    background: #FFFFFF;
+/* grey srokes */
+border: 1px solid rgba(189, 189, 189, 0.25);
+box-sizing: border-box;/* drop shadow */
+box-shadow: 0px 7.51481px 37.574px rgba(0, 0, 0, 0.07);
+border-radius: 7.51481px;
+padding-left:10px;
+padding-right: 10px;
+padding-top: 5px;
+padding-bottom: 5px;
+}
+.absent .media h2{
+    font-family: Khula;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 36px;
+
+
+color: #3B3B3B;
+}
+.absent .media h5{
+    font-family: Khula;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 9.56193px;
+
+
+color: #A79FAA;
+}
+.firstable td{
+    font-family: Khula;
+font-style: normal;
+font-weight: normal;
+line-height: normal;
+font-size: 12px;
+
+color: #31393C;
+}
+.firstable th{
+    font-family: Khula;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+font-size: 10px;
+text-transform: uppercase;
+
+color: #3B3B3B;
+}
+.firstable td a{
+    text-decoration: none;
+    font-family: Khula;
+font-style: normal;
+font-weight: bold;
+line-height: normal;
+font-size: 10px;
+text-align: right;
+text-transform: uppercase;
+
+color: #1B75BB;
+}
+.firstable{
+    
+
+    
+background: #FFFFFF;
+/* grey srokes */
+border: 1px solid rgba(189, 189, 189, 0.25);
+box-sizing: border-box;/* drop shadow */
+box-shadow: 0px 7.51481px 37.574px rgba(0, 0, 0, 0.07);
+border-radius: 7.51481px;
+}
+.padding30{
+    padding-left: 30px;
+    padding-right: 30px;
 }
 .statistics .eachstats a{
     text-decoration: none;
